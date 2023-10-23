@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: docker/dev-environments-go:stable-1
+    image: reactnativecommunity/react-native-android:latest
     init: true
     volumes:
     - type: bind
